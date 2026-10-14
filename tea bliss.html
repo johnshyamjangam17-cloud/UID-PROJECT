@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TeaBliss</title>
+<link rel="stylesheet" href="tea bliss.css">
+</head>
+<body>
+
+<div class="top-bar">
+  ✨ Luxury Tea Collection | Free Shipping Above ₹500 | Premium Taste
+</div>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">TeaBliss</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#trending">Trending</a></li>
+      <li><a href="#" onclick="openShop()">Shop</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-btn">☰</div>
+  </nav>
+</header>
+
+<div id="homePage">
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="eyebrow">Premium Handcrafted Tea</span>
+      <h1>Luxury Tea, Crafted for a Refined Taste</h1>
+      <p>Discover rich aromas, rare blends, and elegant packaging made for everyday indulgence.</p>
+      <div class="hero-actions">
+        <button class="primary-btn" onclick="openShop()">Shop Collection</button>
+        <button class="secondary-btn" onclick="document.getElementById('trending').scrollIntoView()">Explore Trending</button>
+      </div>
+    </div>
+    <div class="hero-media">
+      <div class="hero-badge">
+        <h3>Limited Edition Blends</h3>
+        <p>Curated seasonal teas with premium presentation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="trending" id="trending">
+    <h2 class="section-title">Trending Now</h2>
+    <p class="section-subtitle">Our most loved blends this season, chosen for aroma, elegance, and a premium tea experience.</p>
+    <div class="trend-grid">
+      <div class="trend-card">
+        <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=1000&auto=format&fit=crop">
+        <div class="trend-content">
+          <span class="badge">Best Seller</span>
+          <h3>Royal Masala</h3>
+          <p>Bold spices and deep flavor with a luxurious finish.</p>
+          <div class="price-row">
+            <span class="price">₹799</span>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="trend-card">
+        <img src="https://images.unsplash.com/photo-1464306076886-da185f6a9d05?q=80&w=1000&auto=format&fit=crop">
+        <div class="trend-content">
+          <span class="badge">New Arrival</span>
+          <h3>Emerald Green</h3>
+          <p>Fresh, clean, and refined for a light luxury experience.</p>
+          <div class="price-row">
+            <span class="price">₹699</span>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="trend-card">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1000&auto=format&fit=crop">
+        <div class="trend-content">
+          <span class="badge">Premium Pick</span>
+          <h3>Classic Gold</h3>
+          <p>Elegant everyday tea with a smooth and rich profile.</p>
+          <div class="price-row">
+            <span class="price">₹749</span>
+            <button class="buy-btn">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p class="section-subtitle">Reach out for premium orders, corporate gifts, or custom tea blends.</p>
+    <div class="contact-container">
+      <div class="contact-box">
+        <h3>Email</h3>
+        <p>teabliss@gmail.com</p>
+      </div>
+      <div class="contact-box">
+        <h3>Phone</h3>
+        <p>+91 8019108310</p>
+      </div>
+      <div class="contact-box">
+        <h3>Location</h3>
+        <p>Assam Tea Gardens, India</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <h2 class="section-title">What Customers Say</h2>
+    <p class="section-subtitle">A few words from customers who love the premium feel and taste.</p>
+    <div class="review-grid">
+      <div class="review-card">
+        <p>"Best tea experience ever. Amazing aroma and smooth taste!"</p>
+        <h4 style="margin-top:14px;">- Rahul</h4>
+      </div>
+      <div class="review-card">
+        <p>"The masala tea feels authentic and refreshing every morning."</p>
+        <h4 style="margin-top:14px;">- Priya</h4>
+      </div>
+      <div class="review-card">
+        <p>"Premium quality tea with beautiful packaging and flavor."</p>
+        <h4 style="margin-top:14px;">- Arjun</h4>
+      </div>
+    </div>
+  </section>
+</div>
+
+<section class="shop-page" id="shopPage">
+  <h2 class="section-title">Our Tea Collection</h2>
+  <p class="section-subtitle">Explore the full range of elegant blends and premium classics.</p>
+  <div class="product-grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1000&auto=format&fit=crop">
+      <div class="card-content">
+        <span class="badge">Classic</span>
+        <h3>Classic Tea</h3>
+        <p>Rich flavor with natural freshness.</p>
+        <div class="price-row">
+          <span class="price">₹599</span>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=1000&auto=format&fit=crop">
+      <div class="card-content">
+        <span class="badge">Spiced</span>
+        <h3>Masala Tea</h3>
+        <p>Traditional spicy Indian tea blend.</p>
+        <div class="price-row">
+          <span class="price">₹799</span>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1464306076886-da185f6a9d05?q=80&w=1000&auto=format&fit=crop">
+      <div class="card-content">
+        <span class="badge">Wellness</span>
+        <h3>Green Tea</h3>
+        <p>Healthy antioxidant rich green tea.</p>
+        <div class="price-row">
+          <span class="price">₹699</span>
+          <button class="buy-btn">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br>
+  <center>
+    <button onclick="goHome()" class="buy-btn">⬅ Back To Home</button>
+  </center>
+</section>
+
+<footer>
+  <h2>TeaBliss</h2>
+  <p>Premium tea blends crafted with love.</p>
+</footer>
+
+<script>
+const menuBtn = document.querySelector(".menu-btn");
+const navLinks = document.querySelector(".nav-links");
+
+menuBtn.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
+function openShop(){
+  document.getElementById("homePage").style.display = "none";
+  document.getElementById("shopPage").classList.add("active");
+  window.scrollTo(0,0);
+}
+
+function goHome(){
+  document.getElementById("homePage").style.display = "block";
+  document.getElementById("shopPage").classList.remove("active");
+  window.scrollTo(0,0);
+}
+</script>
+
+</body>
+</html>
